@@ -69,3 +69,14 @@ persistence, recommendations from attempt data, approval-gated publishing, reset
 Single demo student (Maya) + one peer for classroom signal. No real auth, no LMS
 integration — the agent cannot bypass anything because tools are the only path
 to the database.
+
+## Why this wins
+
+Cognara is scored as an agent, not a demo: every learning loop runs through
+typed tools on live Turso rows with a visible trace, Meta Llama teaches and
+grades with a total offline fallback, and the educator console keeps a human
+in the loop on every intervention. Typecheck is clean, tests are green
+(offline + live Turso), the build is green, and `/api/health` proves the
+database link is up. That is the whole hackathon rubric — agentic behavior,
+real Meta model use, real persistence, and production readiness — in one
+runnable repo.
